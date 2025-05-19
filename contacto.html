@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - Gelato e Caffè</title>
+  <link rel="icon" href="img/icon.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo" aria-label="Logo Cafetería">
+      <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Menu</a>
+      <a href="#">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h2 style="margin-bottom: 1rem; text-align: center;">Contacto</h2>
+    <form class="contact-form" action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre" />
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required placeholder="tu@email.com" />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribí tu mensaje..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gelato e Caffè - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
