@@ -3,92 +3,47 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Menú - Gelato e Caffè</title>
   <link rel="icon" href="img/icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
   <nav>
     <div class="logo" aria-label="Logo Cafetería">
       <a href="index.html"><img src="img/logo.png" alt="logo"></a>
     </div>
     <div class="nav-links">
-      <a href="index.html">Menu</a>
+      <a href="index.html">Inicio</a>
       <a href="sobrenosotros.html">Nosotros</a>
       <a href="contacto.html">Contacto</a>
     </div>
   </nav>
 
-  <main class="container">
-    <div class="filters">
-      <input type="text" id="search" aria-label="Buscar producto" placeholder="Buscar producto..." autocomplete="off"
-        spellcheck="false" />
-    </div>
+  <main class="container-index">
 
-    <section class="menu" id="menu" aria-live="polite" aria-relevant="additions removals">
-      <article class="item" data-name="Café Americano" tabindex="0">
-        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
-          alt="Taza de Café Americano" loading="lazy" width="600" height="400" />
-        <div class="item-content">
-          <h3>Café Americano</h3>
-          <p>$1200</p>
+      <article class="item-index">
+        <img src="img/cafeteria.png" loading="lazy" width="600" height="400" />
+        <div class="item-content-index">
+          <a class="title-index" href="cafeteria.html"><h3>CAFETERÍA</h3></a>
         </div>
       </article>
 
-      <article class="item" data-name="Capuccino" tabindex="0">
-        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
-          alt="Taza de Capuccino" loading="lazy" width="600" height="400" />
-        <div class="item-content">
-          <h3>Capuccino</h3>
-          <p>$1500</p>
+      <article class="item-index">
+        <img src="img/heladeria.png" loading="lazy" width="600" height="400" />
+        <div class="item-content-index">
+          <a class="title-index" href="heladeria.html"><h3>HELADERÍA</h3></a>
         </div>
       </article>
 
-      <article class="item" data-name="Tostado de jamón y queso" tabindex="0">
-        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
-          alt="Tostado de jamón y queso" loading="lazy" width="600" height="400" />
-        <div class="item-content">
-          <h3>Tostado de jamón y queso</h3>
-          <p>$2000</p>
-        </div>
-      </article>
-
-      <article class="item" data-name="Medialuna" tabindex="0">
-        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
-          alt="Medialuna" loading="lazy" width="600" height="400" />
-        <div class="item-content">
-          <h3>Medialuna</h3>
-          <p>$800</p>
-        </div>
-      </article>
-
-      <article class="item" data-name="Mocha" tabindex="0">
-        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
-          alt="Taza de Mocha" loading="lazy" width="600" height="400" />
-        <div class="item-content">
-          <h3>Mocha</h3>
-          <p>$1800</p>
-        </div>
-      </article>
-
-      <article class="item" data-name="Limonada" tabindex="0">
-        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
-          alt="Vaso de limonada" loading="lazy" width="600" height="400" />
-        <div class="item-content">
-          <h3>Limonada</h3>
-          <p>$1100</p>
-        </div>
-      </article>
-    </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Gelato e Caffè</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 
 </html>

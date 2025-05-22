@@ -238,3 +238,125 @@ footer {
 .contact-form button:hover {
   background-color: var(--color-secundario);
 }
+
+/* Seccion sobre nosotros */
+
+.nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contenido-texto {
+  max-width: 600px;
+}
+
+.contenido-texto h2 {
+  color:  #af8360;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+.nosotros p{
+  color: rgb(230, 206, 164);
+}
+.imagen-nosotros img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#innovacion{
+
+  color: #af8360;
+}
+
+.nosotros{
+  background-image: 
+  linear-gradient(rgba(0,0,0, 0.7)),
+  
+  url('img/fondo2.jpeg');
+  
+}
+
+.titulo{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #af8360;
+  font-size: 60px;
+  text-align: center;
+}
+
+button{
+  
+  background-color: #5e3303;
+  color: #d6bb9d;
+  font-size: 20px;
+  border-radius: 8px;
+  box-shadow: #b0a494;
+}
+
+/* botones index */
+
+.container-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.item-index {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-index img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.item-index:hover img {
+  transform: scale(1.05);
+  filter: brightness(0.7);
+}
+
+.item-index .item-content-index {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(4px);
+}
+
+.item-index h3,
+.title-index {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+}
