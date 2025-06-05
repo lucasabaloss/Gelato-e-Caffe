@@ -10,7 +10,7 @@ searchInput.addEventListener("input", () => {
     if (name.includes(value)) {
       // mostrar con animacion si esta oculto
       if (item.style.display === "none" || item.classList.contains("hiding")) {
-        item.style.display = "flex"; // Mostrar para el layout flex/grid
+        item.style.display = "flex";
         item.classList.remove("hiding");
         // reflow
         void item.offsetWidth;
