@@ -343,11 +343,8 @@ nav a:hover {
 }
 
 
-
-
 /* botones index */
 
-/* Contenedor de los botones */
 .container-index {
   display: flex;
   flex-direction: column;
@@ -357,7 +354,6 @@ nav a:hover {
   justify-content: center;
 }
 
-/* Cada botón con imagen de fondo */
 .item-index {
   position: relative;
   width: 100%;
@@ -379,7 +375,6 @@ nav a:hover {
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-/* Efecto hover para pantallas más grandes */
 @media (hover: hover) {
   .item-index:hover img {
     transform: scale(1.05);
@@ -395,7 +390,6 @@ nav a:hover {
   }
 }
 
-/* Texto sobre la imagen */
 .item-content-index {
   position: relative;
   z-index: 2;
@@ -408,14 +402,14 @@ nav a:hover {
   margin: auto;
 }
 
-/* Título del botón */
-.item-index h3 {
+.item-index h3,
+.item-index a {
   font-size: 1.5rem;
   margin: 0;
   font-weight: 700;
   letter-spacing: 1px;
+  text-decoration: none;
 }
-
 
 /* mas */
 
